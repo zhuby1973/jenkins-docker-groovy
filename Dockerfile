@@ -1,4 +1,4 @@
-FROM jenkinsci/jenkins:2.150.1-alpine
+FROM shuogesha/jenkins2.204.2
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
 COPY security.groovy /usr/share/jenkins/ref/init.groovy.d/security.groovy
 COPY seeddsl.groovy /usr/share/jenkins/seeddsl.groovy

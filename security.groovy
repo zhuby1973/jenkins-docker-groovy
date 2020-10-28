@@ -13,7 +13,7 @@ import org.jenkinsci.plugins.authorizeproject.strategy.TriggeringUsersAuthorizat
 println("=== Configuring users")
 
 def instance = Jenkins.getInstance()
-String admin_email = 'raghuk.vit@gmail.com'
+String admin_email = 'zhuby1973@gmail.com'
 JenkinsLocationConfiguration location = instance.getExtensionList('jenkins.model.JenkinsLocationConfiguration')[0]
  
 def hudsonRealm = new HudsonPrivateSecurityRealm(false)
